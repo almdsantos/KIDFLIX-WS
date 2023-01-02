@@ -5,7 +5,8 @@ const mongoose = require('mongoose');
 const app = express();
 
 const routes = require('./src/routes/filmes.routes');
-mongoose.connect('mongodb://localhost:27017/kidflix', {
+mongoose.set('strictQuery', true);
+mongoose.connect('mongodb://0.0.0.0:27017/kidflix', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
