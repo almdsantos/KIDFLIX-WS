@@ -1,6 +1,32 @@
 const express = require('express');
 const router = express.Router();
+const _ = require('underscore')
 const Filme = require('../models/filme')
+
+// RECUPERAR TELA HOME
+router.get('/home', async (req, res) => {
+    try {
+        let filme = await Filme.find({});
+        let finalFilmes = [];
+
+        const newFilme = { ...filme._doc}
+        finalFilmes.push(newFilme);
+
+        // Misturar Resultados Aleatoriamente
+        finalFilmes = _.shuffle(finalFilmes)
+
+        // Filme Principal
+        const principal = finalFilmes[0];
+
+        // Separar em seções
+        const secoes = _.chunk(finalFilmes, 5);
+
+        res.json({error: false, principal, secoes})
+
+    } catch (err) {
+        res.json({ error: true, message: err.message})
+    }
+})
 
 
 // RECUPERAR TODOS OS REGISTROS

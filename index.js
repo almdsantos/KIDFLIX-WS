@@ -1,19 +1,19 @@
 const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
-const mongoose = require('mongoose');
+const database = require('./src/services/database');
+const cors = require('cors')
 const app = express();
 
-const routes = require('./src/routes/filmes.routes');
-mongoose.set('strictQuery', true);
-mongoose.connect('mongodb://0.0.0.0:27017/kidflix', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-});
+const filmeRoutes = require('./src/routes/filmes.routes');
 
+// MIDDLEWARES
 app.use(bodyParser.json());
+app.use(cors());
 app.use(morgan('dev'));
-app.use('/', routes);
+
+/// ROUTES
+app.use('/', filmeRoutes);
 
 app.listen(3000, () => {
     console.log('Meu Servidor Está Funcionando');
