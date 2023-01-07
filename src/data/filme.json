@@ -127,7 +127,91 @@
     },
     {
         "titulo": "Minions - O Filme",
+        "tipo": "serie",
+        "capa": "https://i.imgur.com/NCZJoO5.jpg",
+        "thumb": "https://i.imgur.com/pIoO8Ui.jpg",
+        "descricao": "Seres amarelos milenares, os minions têm uma missão: servir os maiores vilões. Em depressão desde a morte de seu antigo mestre, eles tentam encontrar um novo chefe. Três voluntários, Kevin, Stuart e Bob, vão até uma convenção de vilões nos Estados Unidos e lá se encantam com Scarlet Overkill (Sandra Bullock), que ambiciona ser a primeira mulher a dominar o mundo.",
+        "generos": [
+            "Animação",
+            "Aventura",
+            "Comédia",
+            "Familia",
+            "Fantasia"
+        ]
+    },
+    {
+        "titulo": "Patrulha Canina - O Filme",
         "tipo": "filme",
+        "capa": "https://i.imgur.com/nyQv8O4.jpeg",
+        "thumb": "https://imgur.com/nCdryMX.jpg",
+        "descricao": "Um meteoro mágico cai na Cidade da Aventura, dando aos protagonistas caninos superpoderes condizentes com suas personalidades. É quando o arqui-inimigo da Patrulha Canina, Humdinger, escapa da prisão e se junta a um cientista louco para roubar os poderes deles. Cabe á menor dos protagonistas, Skye, pará-los e descobrir sua própria força sem os poderes do meteoro.",
+        "generos": [
+            "Animação",
+            "Aventura",
+            "Comédia",
+            "Familia",
+            "Fantasia"
+        ]
+    },
+    {
+        "titulo": "Minions - O Filme",
+        "tipo": "filme",
+        "capa": "https://i.imgur.com/NCZJoO5.jpg",
+        "thumb": "https://i.imgur.com/pIoO8Ui.jpg",
+        "descricao": "Seres amarelos milenares, os minions têm uma missão: servir os maiores vilões. Em depressão desde a morte de seu antigo mestre, eles tentam encontrar um novo chefe. Três voluntários, Kevin, Stuart e Bob, vão até uma convenção de vilões nos Estados Unidos e lá se encantam com Scarlet Overkill (Sandra Bullock), que ambiciona ser a primeira mulher a dominar o mundo.",
+        "generos": [
+            "Animação",
+            "Aventura",
+            "Comédia",
+            "Familia",
+            "Fantasia"
+        ]
+    },
+    {
+        "titulo": "Patrulha Canina - O Filme",
+        "tipo": "serie",
+        "capa": "https://i.imgur.com/nyQv8O4.jpeg",
+        "thumb": "https://imgur.com/nCdryMX.jpg",
+        "descricao": "Um meteoro mágico cai na Cidade da Aventura, dando aos protagonistas caninos superpoderes condizentes com suas personalidades. É quando o arqui-inimigo da Patrulha Canina, Humdinger, escapa da prisão e se junta a um cientista louco para roubar os poderes deles. Cabe á menor dos protagonistas, Skye, pará-los e descobrir sua própria força sem os poderes do meteoro.",
+        "generos": [
+            "Animação",
+            "Aventura",
+            "Comédia",
+            "Familia",
+            "Fantasia"
+        ]
+    },
+    {
+        "titulo": "Minions - O Filme",
+        "tipo": "filme",
+        "capa": "https://i.imgur.com/NCZJoO5.jpg",
+        "thumb": "https://i.imgur.com/pIoO8Ui.jpg",
+        "descricao": "Seres amarelos milenares, os minions têm uma missão: servir os maiores vilões. Em depressão desde a morte de seu antigo mestre, eles tentam encontrar um novo chefe. Três voluntários, Kevin, Stuart e Bob, vão até uma convenção de vilões nos Estados Unidos e lá se encantam com Scarlet Overkill (Sandra Bullock), que ambiciona ser a primeira mulher a dominar o mundo.",
+        "generos": [
+            "Animação",
+            "Aventura",
+            "Comédia",
+            "Familia",
+            "Fantasia"
+        ]
+    },
+    {
+        "titulo": "Patrulha Canina - O Filme",
+        "tipo": "filme",
+        "capa": "https://i.imgur.com/nyQv8O4.jpeg",
+        "thumb": "https://imgur.com/nCdryMX.jpg",
+        "descricao": "Um meteoro mágico cai na Cidade da Aventura, dando aos protagonistas caninos superpoderes condizentes com suas personalidades. É quando o arqui-inimigo da Patrulha Canina, Humdinger, escapa da prisão e se junta a um cientista louco para roubar os poderes deles. Cabe á menor dos protagonistas, Skye, pará-los e descobrir sua própria força sem os poderes do meteoro.",
+        "generos": [
+            "Animação",
+            "Aventura",
+            "Comédia",
+            "Familia",
+            "Fantasia"
+        ]
+    },
+    {
+        "titulo": "Minions - O Filme",
+        "tipo": "serie",
         "capa": "https://i.imgur.com/NCZJoO5.jpg",
         "thumb": "https://i.imgur.com/pIoO8Ui.jpg",
         "descricao": "Seres amarelos milenares, os minions têm uma missão: servir os maiores vilões. Em depressão desde a morte de seu antigo mestre, eles tentam encontrar um novo chefe. Três voluntários, Kevin, Stuart e Bob, vão até uma convenção de vilões nos Estados Unidos e lá se encantam com Scarlet Overkill (Sandra Bullock), que ambiciona ser a primeira mulher a dominar o mundo.",
@@ -197,7 +281,7 @@
     },
     {
         "titulo": "Patrulha Canina - O Filme",
-        "tipo": "filme",
+        "tipo": "serie",
         "capa": "https://i.imgur.com/nyQv8O4.jpeg",
         "thumb": "https://imgur.com/nCdryMX.jpg",
         "descricao": "Um meteoro mágico cai na Cidade da Aventura, dando aos protagonistas caninos superpoderes condizentes com suas personalidades. É quando o arqui-inimigo da Patrulha Canina, Humdinger, escapa da prisão e se junta a um cientista louco para roubar os poderes deles. Cabe á menor dos protagonistas, Skye, pará-los e descobrir sua própria força sem os poderes do meteoro.",
@@ -225,91 +309,7 @@
     },
     {
         "titulo": "Patrulha Canina - O Filme",
-        "tipo": "filme",
-        "capa": "https://i.imgur.com/nyQv8O4.jpeg",
-        "thumb": "https://imgur.com/nCdryMX.jpg",
-        "descricao": "Um meteoro mágico cai na Cidade da Aventura, dando aos protagonistas caninos superpoderes condizentes com suas personalidades. É quando o arqui-inimigo da Patrulha Canina, Humdinger, escapa da prisão e se junta a um cientista louco para roubar os poderes deles. Cabe á menor dos protagonistas, Skye, pará-los e descobrir sua própria força sem os poderes do meteoro.",
-        "generos": [
-            "Animação",
-            "Aventura",
-            "Comédia",
-            "Familia",
-            "Fantasia"
-        ]
-    },
-    {
-        "titulo": "Minions - O Filme",
-        "tipo": "filme",
-        "capa": "https://i.imgur.com/NCZJoO5.jpg",
-        "thumb": "https://i.imgur.com/pIoO8Ui.jpg",
-        "descricao": "Seres amarelos milenares, os minions têm uma missão: servir os maiores vilões. Em depressão desde a morte de seu antigo mestre, eles tentam encontrar um novo chefe. Três voluntários, Kevin, Stuart e Bob, vão até uma convenção de vilões nos Estados Unidos e lá se encantam com Scarlet Overkill (Sandra Bullock), que ambiciona ser a primeira mulher a dominar o mundo.",
-        "generos": [
-            "Animação",
-            "Aventura",
-            "Comédia",
-            "Familia",
-            "Fantasia"
-        ]
-    },
-    {
-        "titulo": "Patrulha Canina - O Filme",
-        "tipo": "filme",
-        "capa": "https://i.imgur.com/nyQv8O4.jpeg",
-        "thumb": "https://imgur.com/nCdryMX.jpg",
-        "descricao": "Um meteoro mágico cai na Cidade da Aventura, dando aos protagonistas caninos superpoderes condizentes com suas personalidades. É quando o arqui-inimigo da Patrulha Canina, Humdinger, escapa da prisão e se junta a um cientista louco para roubar os poderes deles. Cabe á menor dos protagonistas, Skye, pará-los e descobrir sua própria força sem os poderes do meteoro.",
-        "generos": [
-            "Animação",
-            "Aventura",
-            "Comédia",
-            "Familia",
-            "Fantasia"
-        ]
-    },
-    {
-        "titulo": "Minions - O Filme",
-        "tipo": "filme",
-        "capa": "https://i.imgur.com/NCZJoO5.jpg",
-        "thumb": "https://i.imgur.com/pIoO8Ui.jpg",
-        "descricao": "Seres amarelos milenares, os minions têm uma missão: servir os maiores vilões. Em depressão desde a morte de seu antigo mestre, eles tentam encontrar um novo chefe. Três voluntários, Kevin, Stuart e Bob, vão até uma convenção de vilões nos Estados Unidos e lá se encantam com Scarlet Overkill (Sandra Bullock), que ambiciona ser a primeira mulher a dominar o mundo.",
-        "generos": [
-            "Animação",
-            "Aventura",
-            "Comédia",
-            "Familia",
-            "Fantasia"
-        ]
-    },
-    {
-        "titulo": "Patrulha Canina - O Filme",
-        "tipo": "filme",
-        "capa": "https://i.imgur.com/nyQv8O4.jpeg",
-        "thumb": "https://imgur.com/nCdryMX.jpg",
-        "descricao": "Um meteoro mágico cai na Cidade da Aventura, dando aos protagonistas caninos superpoderes condizentes com suas personalidades. É quando o arqui-inimigo da Patrulha Canina, Humdinger, escapa da prisão e se junta a um cientista louco para roubar os poderes deles. Cabe á menor dos protagonistas, Skye, pará-los e descobrir sua própria força sem os poderes do meteoro.",
-        "generos": [
-            "Animação",
-            "Aventura",
-            "Comédia",
-            "Familia",
-            "Fantasia"
-        ]
-    },
-    {
-        "titulo": "Minions - O Filme",
-        "tipo": "filme",
-        "capa": "https://i.imgur.com/NCZJoO5.jpg",
-        "thumb": "https://i.imgur.com/pIoO8Ui.jpg",
-        "descricao": "Seres amarelos milenares, os minions têm uma missão: servir os maiores vilões. Em depressão desde a morte de seu antigo mestre, eles tentam encontrar um novo chefe. Três voluntários, Kevin, Stuart e Bob, vão até uma convenção de vilões nos Estados Unidos e lá se encantam com Scarlet Overkill (Sandra Bullock), que ambiciona ser a primeira mulher a dominar o mundo.",
-        "generos": [
-            "Animação",
-            "Aventura",
-            "Comédia",
-            "Familia",
-            "Fantasia"
-        ]
-    },
-    {
-        "titulo": "Patrulha Canina - O Filme",
-        "tipo": "filme",
+        "tipo": "serie",
         "capa": "https://i.imgur.com/nyQv8O4.jpeg",
         "thumb": "https://imgur.com/nCdryMX.jpg",
         "descricao": "Um meteoro mágico cai na Cidade da Aventura, dando aos protagonistas caninos superpoderes condizentes com suas personalidades. É quando o arqui-inimigo da Patrulha Canina, Humdinger, escapa da prisão e se junta a um cientista louco para roubar os poderes deles. Cabe á menor dos protagonistas, Skye, pará-los e descobrir sua própria força sem os poderes do meteoro.",

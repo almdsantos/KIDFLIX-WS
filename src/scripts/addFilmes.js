@@ -1,4 +1,4 @@
-const database = require('./src/services/database');
+const database = require('../services/database');
 const Filme = require('../models/filme');
 const filmeJSON = require('../data/filme.json');
 

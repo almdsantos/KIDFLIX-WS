@@ -1,16 +1,25 @@
 const express = require('express');
 const router = express.Router();
-const _ = require('underscore')
-const Filme = require('../models/filme')
+const _ = require('underscore');
+const Filme = require('../models/filme');
+const Temporada = require('../models/temporada');
 
 // RECUPERAR TELA HOME
 router.get('/home', async (req, res) => {
     try {
-        let filme = await Filme.find({});
+        //RECUPERAR TODOS OS FILMES
+        let filmes = await Filme.find({});
         let finalFilmes = [];
 
-        const newFilme = { ...filme._doc}
-        finalFilmes.push(newFilme);
+        //RECUPERANDO TEMPORADAS
+        for (let filme of filmes) {
+            const temporadas = await Temporada.find({
+                filme_id: filme._id
+            });
+
+            const newFilme = { ... filme._doc, temporadas }
+            finalFilmes.push(newFilme);
+        }
 
         // Misturar Resultados Aleatoriamente
         finalFilmes = _.shuffle(finalFilmes)

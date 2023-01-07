@@ -6,6 +6,7 @@ const cors = require('cors')
 const app = express();
 
 const filmeRoutes = require('./src/routes/filmes.routes');
+const episodiosRoutes = require('./src/routes/episodios.routes');
 
 // MIDDLEWARES
 app.use(bodyParser.json());
@@ -14,6 +15,7 @@ app.use(morgan('dev'));
 
 /// ROUTES
 app.use('/', filmeRoutes);
+app.use('/episodio', episodiosRoutes)
 
 app.listen(3000, () => {
     console.log('Meu Servidor Está Funcionando');
