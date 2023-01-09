@@ -18,7 +18,7 @@ app.use('/', filmeRoutes);
 app.use('/episodio', episodiosRoutes)
 
 app.listen(3000, () => {
-    console.log('Meu Servidor Está Funcionando');
+    console.log('Meu Servidor Está Funcionand');
 });
 
 
